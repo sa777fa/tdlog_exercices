@@ -39,6 +39,7 @@ La chaîne OK si le backlog est vide. Sinon retourner la chaîne KO.
 
 
 def processLines(lines) -> str:
+        # Implementer votre réponse ici
     # Lecture des données d'entrée
     N = int(lines[0])  # Nombre de sprints
     T = int(lines[1])  # Nombre initial de tâches dans le backlog
